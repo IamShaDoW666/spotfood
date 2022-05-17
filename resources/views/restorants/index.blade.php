@@ -16,13 +16,13 @@
                             <div class="col-8">
                                 <h3 class="mb-0">{{ __('Restaurant Name') }}</h3>
                             </div>
-                            <!--<div class="col-4 text-right">
+                            <div class="col-4 text-right">
                                 <a href="{{ route('admin.restaurants.create') }}" class="btn btn-sm btn-primary">{{ __('Add Restaurant') }}</a>
                                 @if(auth()->user()->hasRole('admin') && config('settings.enable_import_csv'))
                                     <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modal-import-restaurants">{{ __('Import from CSV') }}</button>
                                 @endif
-                            </div>-->
-                        </div>
+                            </div>
+                       </div>
                     </div>
 
                     <div class="col-12">

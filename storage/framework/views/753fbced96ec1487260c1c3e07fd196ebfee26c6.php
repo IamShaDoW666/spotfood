@@ -1,0 +1,1 @@
+<span><?php echo e($time); ?></span><?php /**PATH /var/www/desigalli/resources/views/orders/partials/time.blade.php ENDPATH**/ ?>

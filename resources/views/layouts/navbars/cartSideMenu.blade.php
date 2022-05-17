@@ -7,7 +7,9 @@
             <div class="minicart-heading">
                 <h4>{{ __('Shopping Cart') }}</h4>
             </div>
+           @if (isset($doWeHaveMinimumPrice)&&$doWeHaveMinimumPrice)
             <div id="minPrice" value="{{ $minPrice }}" hidden>{{ $minPrice }}</div>
+	   @endif	
             <div class="searchable-container">
                 <div id="cartList">
                     <div v-for="item in items" class="items col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">

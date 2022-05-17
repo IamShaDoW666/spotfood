@@ -47,7 +47,7 @@
         </li>
     @endif
 
-    @if (config('app.isqrsaas')&&config('settings.is_whatsapp_ordering_mode')&&!config('settings.is_pos_cloud_mode'))
+    @if (config('app.isqrsaas')&&!config('settings.is_whatsapp_ordering_mode')&&!config('settings.is_pos_cloud_mode'))
         <li class="nav-item">
             <a class="nav-link" href="{{ route('qr') }}">
                 <i class="ni ni-mobile-button text-red"></i> {{ __('QR Builder') }}

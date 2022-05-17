@@ -783,7 +783,7 @@ $a = $featured_vendors;
         $doWeHaveMinimumPrice = Module::has('minimum-price');
         
 
-        $subDomain = $this->getSubDomain();
+        $subDomain = 'desigalli';
         if ($subDomain && $alias !== $subDomain) {
             return redirect()->route('restorant', $subDomain);
         }
